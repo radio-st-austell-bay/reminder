@@ -1,0 +1,32 @@
+# Each row of the form:
+#
+#   Day,Hour,Minute,Message
+#
+# Day may be one of: mon,tue,wed,thu,fri,sat,sun.
+# Hour may be from 0 to 23 inclusive.
+# Minute may be from 0 to 59 inclusive.
+# Any of the above may include a range with dash: start-finish
+# Any of the above may have multiple values separated by semicolons.
+
+mon-fri,7-18, 0,News and weather
+mon-fri,7-18,10,Travel
+mon-fri,7-21,30,What's On guide
+mon-fri,7-21,50,Competition (at least once per show)
+
+sat,10-18, 0,News and weather
+sat,10-18,10,Travel
+sat,10-21,30,What's On guide
+sat,10-21,50,Competition (at least once per show)
+
+#mon-fri,7;10;13;16,20,Commercial A
+#sat,10;13;16,20,Commercial A
+
+mon-fri,8;11;14;17,20,Commercial B
+sat,11;14;17,20,Commercial B
+
+mon-fri,9;12;15;18,20,Commercial C
+sat,12;15;18,20,Commercial C
+
+mon-fri,7-21,40,Commercial D
+sat,10-21,40,Commercial D
+
